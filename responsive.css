@@ -238,7 +238,7 @@
         margin-top: none;
     }
 
-        .service_page_relation_problem_content_holder {
+    .service_page_relation_problem_content_holder {
         grid-template-columns: repeat(1, 1fr);
 
     }
@@ -252,8 +252,13 @@
         width: 50%;
     }
 
-        .service_page_img img {
+    .service_page_img img {
         height: 300px;
+    }
+
+    .price_plan_section {
+        margin-top: 200px;
+        
     }
 
     /* blog no need to change */
@@ -416,7 +421,7 @@
 
 
     .price_plan_section {
-        margin-top: 500px;
+        margin-top: 600px;
     }
 
     .all_content_parent_box {
@@ -637,7 +642,12 @@
     }
 
     .price_plan_section {
-        margin-top: 650px;
+        margin-top: 750px;
+    }
+
+    .happy_client_content>p{
+        height: 120px;
+        overflow: hidden;
     }
 
     .all_content_parent_box {
@@ -669,7 +679,7 @@
     }
 
     .about_form {
-        margin-top: 650px !important;
+        margin-top: 800px !important;
     }
 
     .Counseling_heading h5 {
@@ -703,12 +713,16 @@
         display: none;
     }
 
-    .banner,.common_banner {
+    .banner,
+    .common_banner {
         height: 30vh;
         background-attachment: unset;
     }
 
 }
+
+
+
 
 
 @media screen and (max-width:320px) {
@@ -818,10 +832,7 @@
 
 
 
-    /* about-us */
-    .about_form {
-        margin-top: 880px !important;
-    }
+   
 
     /* counselor */
     .common_banner {
@@ -882,9 +893,7 @@
 
     /* /* pricing and plan */
 
-    .price_plan_section {
-        margin-top: 900px;
-    }
+   
 
     .All_content_box {
         margin-bottom: 0 !important;
